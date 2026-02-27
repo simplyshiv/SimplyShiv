@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | SimplyShiv Immigration Inc.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">✦</span>
+        <span>SimplyShiv <span class="logo-sub">Immigration Inc.</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html" class="nav-cta active">Get in Touch</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Get in Touch</a></li>
+    </ul>
+  </div>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="section-label">Let's Talk</p>
+      <h1>Get in Touch</h1>
+      <p>Book a free consultation or ask us anything. We respond within 1–2 business days.</p>
+    </div>
+  </section>
+
+  <section class="contact-section section">
+    <div class="container contact-grid">
+
+      <div class="contact-info">
+        <h2>We'd love to hear from you</h2>
+        <p>Whether you have a question about a specific service, want to understand your options, or are ready to get started — reach out. Your first consultation is always free.</p>
+
+        <div class="contact-detail">
+          <div class="cd-icon">📧</div>
+          <div>
+            <strong>Email</strong>
+            <p><a href="mailto:SimplyShivImmigration@Outlook.com">SimplyShivImmigration@Outlook.com</a></p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="cd-icon">📍</div>
+          <div>
+            <strong>Location</strong>
+            <p>Canada (serving clients nationwide & internationally)</p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="cd-icon">🕐</div>
+          <div>
+            <strong>Response Time</strong>
+            <p>Within 1–2 business days</p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="cd-icon">🌐</div>
+          <div>
+            <strong>Languages</strong>
+            <p>English, Hindi, Punjabi</p>
+          </div>
+        </div>
+
+        <div class="disclaimer-box" style="margin-top:2rem;">
+          <p>⚖️ <strong>Note:</strong> We are a regulated immigration consulting firm, not a law firm. We do not provide legal advice.</p>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required placeholder="Your full name"/>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com"/>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+1 (___) ___-____"/>
+          </div>
+          <div class="form-group">
+            <label for="service">Service of Interest</label>
+            <select id="service" name="service">
+              <option value="">Select a service...</option>
+              <option value="visa">Visa Application</option>
+              <option value="work">Work Permit</option>
+              <option value="pr">Permanent Residency</option>
+              <option value="citizenship">Citizenship</option>
+              <option value="study">Study Permit</option>
+              <option value="other">Other / Not Sure</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message *</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell us briefly about your situation and what you need help with..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Send Message ✦</button>
+          <p class="form-note">By submitting this form, you agree to be contacted by SimplyShiv Immigration Inc. regarding your inquiry. We respect your privacy.</p>
+        </form>
+        <div id="formSuccess" class="form-success" style="display:none;">
+          <div class="success-icon">✓</div>
+          <h3>Message Sent!</h3>
+          <p>Thank you for reaching out. We'll get back to you within 1–2 business days.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">✦</span>
+        <span class="footer-name">SimplyShiv Immigration Inc.</span>
+        <p>Regulated Canadian Immigration Consultant (RCIC)</p>
+      </div>
+      <div class="footer-links">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>📧 <a href="mailto:SimplyShivImmigration@Outlook.com">SimplyShivImmigration@Outlook.com</a></p>
+        <p>📍 Canada</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 SimplyShiv Immigration Inc. All rights reserved. | Not legal advice.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
